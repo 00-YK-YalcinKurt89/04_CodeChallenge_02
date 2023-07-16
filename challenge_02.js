@@ -17,3 +17,21 @@ Alter 13-17 // Cola
 /* Getränke-Challenge */
 
 
+let userName, userAge;
+
+userName = prompt("Gib deinen Namen ein:");
+userAge = parseInt(prompt("Gib dein Alter ein:"));
+
+if (userAge > 0 && userAge < 6)
+{
+    console.log("Max trinkt Milch");
+} else if (userAge > 5 && userAge < 13)
+{
+    console.log("Max trinkt Saft");
+} else if (userAge > 12 && userAge < 18)
+{
+    console.log("Max trinkt Cola");
+} else if (userAge > 17)
+{
+    console.log("Max trinkt Wein");
+}
