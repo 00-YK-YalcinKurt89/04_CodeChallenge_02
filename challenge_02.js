@@ -24,14 +24,14 @@ userAge = parseInt(prompt("Gib dein Alter ein:"));
 
 if (userAge > 0 && userAge < 6)
 {
-    console.log("Max trinkt Milch");
+    console.log(`${userName} trinkt Milch.`);
 } else if (userAge > 5 && userAge < 13)
 {
-    console.log("Max trinkt Saft");
+    console.log(`${userName} trinkt Saft.`);
 } else if (userAge > 12 && userAge < 18)
 {
-    console.log("Max trinkt Cola");
+    console.log(`${userName} trinkt Cola.`);
 } else if (userAge > 17)
 {
-    console.log("Max trinkt Wein");
+    console.log(`${userName} trinkt Wein.`);
 }
